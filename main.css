@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.stripe {
+  margin-top: 10px;
+  height: 10px;
+  background-color: black;
+}
+
+.stripes {
+  position: absolute;
+  top: -100%;
+  bottom: -100%;
+  left: -100%;
+  right: -100%;
+}
+
+.one   { animation: spin  30s linear infinite; }
+.two   { animation: spin  60s linear infinite; }
+.three { animation: spin  90s linear infinite; }
+.four  { animation: spin 120s linear infinite; }
+
+@keyframes spin {
+  100% {
+    transform:rotate(360deg);
+  }
+}
