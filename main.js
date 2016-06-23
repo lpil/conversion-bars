@@ -5,7 +5,7 @@ function makeStrips(className) {
   container.classList.add("stripes");
   container.classList.add(className);
 
-  let i = 1000;
+  let i = 500;
   while (i--) {
     const child = document.createElement("div");
     child.classList.add("stripe");
