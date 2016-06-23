@@ -1,0 +1,7 @@
+```html
+<!--
+  Some art by Louis Pilfold.
+  https://lpil.uk/
+  https://github.com/lpil/conversion-bars
+-->
+```
